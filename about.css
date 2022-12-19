@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+#image{
+    position: relative;
+    width: 100%;
+    height: 68vh;
+    background:url(/photo1.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.header
+{
+    background: black;
+    text-align: left;
+    padding: 7px;
+    padding-left: 25px;
+    color: white;
+    font-weight: lighter;
+    font-size: 50px;   
+}
+
+#belowHeader{
+    height: 6vh;
+    background-image: linear-gradient(to right, rgba(22, 8, 8, 0.911), rgb(224, 0, 0));
+    
+}
+section{
+    padding: 80px;
+    
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(to top, rgb(255, 255, 255), rgb(255, 255, 255));
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+section p{
+   
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+section h3{
+    font-size: 2.8em;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+   
+}
+section p{
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 1.6em;
+    text-align: center;
+   /* font-family: 'Open Sans', sans-serif;*/
+}
+.services{
+   padding-left: 130px;
+   font-weight:lighter;
+   font-family: 'Bebas Neue', cursive;
+   font-size: 25px;
+   color: white;
+   background-image: linear-gradient(to right, rgba(22, 8, 8, 0.911), rgb(224, 0, 0));
+  
+}
+.flex-container{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.flex-item{
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 1.3em;
+    padding: 20px;
+   padding-bottom: 40px;
+    text-align: center;
+}
+.flex-item h1{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+.flex-item p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img1{
+  height: 250px;
+  width: 300px;
+    background-image: url(/webdev.png);
+    background-size: cover;
+    background-position: center;
+    margin-left: 120px;
+    margin-bottom: 5px;
+    margin-top: 45px;
+}
+.img2{
+    height: 300px;
+    width: 300px;
+      background-image: url(/webDesign.png);
+      background-size: cover;
+      background-position: center;
+      margin-left: 120px;
+  }
+  .img3{
+    height: 300px;
+    width: 300px;
+      background-image: url(/webHost.png);
+      background-size: cover;
+      background-position: center;
+      margin-left: 120px;
+  }
+  .flex-item h2
+  {
+    transition: 0.6s ease;
+      padding: 15px;
+      margin: 20px;
+    background: #6d6d6d;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+.flex-item h2:hover{
+	background-color:#570000;
+	color:#ffffff;
+}
+.flex-item a
+{
+ 
+   text-decoration: none;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  color: rgb(255, 255, 255);
+  border-radius: 25px;
+}
+.technology{ 
+        padding-left: 130px;
+        font-weight:lighter;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 25px;  
+        background-image: linear-gradient(to right, rgba(22, 8, 8, 0.911), rgb(224, 0, 0));
+    color: white;
+}
+.flex-tech{
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.flex-tech-item{
+   
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 25px;
+}
+.image1{
+    height: 280px;
+    width: 450px;
+      background-image: url(/htmlcss.jpg);
+      background-size: cover;
+      background-position: center;
+      margin-left: 60px;
+}
+.image2{
+    height: 210px;
+    width: 210px;
+      background-image: url(/js.png);
+      background-size: cover;
+      background-position: center;
+      margin-left: 60px;
+      margin-bottom: 50px;
+      margin-top: 30px;
+}
+.image3{
+    height: 260px;
+    width: 380px;
+      background-image: url(/django.png);
+      background-size: cover;
+      background-position: center;
+      margin-left: 60px;
+      margin-top:20px;
+}
+.flex-tech-item h2{
+   text-align: center;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+    padding-left: 40px;
+}
+.footer{
+    height: 50px;
+    background: black;
+    color: white;
+    font-style: italic;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 700px){
+    #image{
+        position: relative;
+        width: 100%;
+        height: 45vh;
+        background:url(/photo1.png);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+    .header
+    {
+        background: black;
+        text-align: center;
+        padding: 5px;
+        color: white;
+        font-weight: light;
+        font-size: 40px;   
+    }
+    section h3{
+        font-size: 2.4em;
+        /* margin-top: 10px; */
+        margin-bottom: 10px;
+        text-align: center;
+        font-family: 'Barlow Semi Condensed', sans-serif;
+       
+    }
+    section p{
+        margin-left: -20px;
+        margin-right: -20px;
+        font-size: 1.3em;
+        text-align: center;
+       /* font-family: 'Open Sans', sans-serif;*/
+    }
+    .services{
+        padding-left: 121px;
+        font-weight:lighter;
+        text-align: left;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;
+        color: white;
+        background-image: linear-gradient(to right, rgba(22, 8, 8, 0.911), rgb(224, 0, 0));
+       
+     }
+     .flex-container{
+        padding: 5px;
+        margin-left: 80px;
+        display: flex;
+        font-size: 15px;
+        flex-direction: column;
+        text-align: center;
+        /* justify-content: space-evenly; */
+       
+      
+    }
+    .flex-item{
+        /* margin-left: -50px;
+        margin-right: 10px; */
+        margin-left: 5px;
+        font-size: 1.2em;
+        padding: 50px;
+        padding-bottom: 30px;
+    }
+    .img1{
+          height: 200px;
+          width: 250px;
+          background-image: url(/webdev.png);
+          background-size: cover;
+          background-position: center;
+          margin-left: 5px;
+          margin-bottom: 5px;
+          margin-top: 10px;
+      }
+    .img2{
+        height: 250px;
+        width: 250px;
+          background-image: url(/webDesign.png);
+          background-size: cover;
+          background-position: center;
+          margin-left: 5px;
+          margin-top: 5px;
+      }
+    .img3{
+        height: 250px;
+        width: 250px;
+          background-image: url(/webHost.png);
+          background-size: cover;
+          background-position: center;
+          margin-left: 5px;
+          margin-top: 5px;
+      }
+      .flex-item p{
+        margin-left: 1px;
+        margin-right: 1px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+        text-align: center;
+    }
+    .technology{ 
+        padding-left: 102px;
+        font-weight:lighter;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 20px;  
+        background-image: linear-gradient(to right, rgba(22, 8, 8, 0.911), rgb(224, 0, 0));
+        color: white;}
+    .flex-tech{
+            padding: 5px;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+        
+        }
+    .flex-tech-item{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 20px;
+        }
+        .image1{
+            height: 220px;
+            width: 360px;
+              background-image: url(/htmlcss.jpg);
+              background-size: cover;
+              background-position: center;
+              margin-left: -5px;
+              margin-bottom: -5px;
+        }
+        .image2{
+            height: 150px;
+            width: 150px;
+              background-image: url(/js.png);
+              background-size: cover;
+              background-position: center;
+              margin-left: 5px;
+              margin-bottom: 20px;
+              margin-top: 40px;
+        }
+        .image3{
+            height: 200px;
+            width: 325px;
+              background-image: url(/django.png);
+              background-size: cover;
+              background-position: center;
+              margin-left: 0px;
+              margin-top:20px;
+              margin-bottom: -20px;
+        }
+        .flex-tech-item h2{
+            text-align: center;
+             font-family: 'Barlow Semi Condensed', sans-serif;
+             font-size: 30px;
+             padding-left: 0px;
+         }
+         .footer{
+             height: 50px;
+             background: black;
+             color: white;
+             font-style: italic;
+             padding-top: 15px;
+             padding-left: 20px;
+             font-size: 20px;
+         }
+}
