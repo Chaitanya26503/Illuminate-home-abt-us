@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <h1 class="header">ABOUT US</h1>
+    <P id="belowHeader"></P>
+    <div id="image"></div>
+    <section>
+        <h3> Welcome to Illuminate, the Premier Web Development Agency!</h3>
+        <p>
+            <br>
+Our team is made up of three bright and ambitious students who are dedicated to creating beautiful and functional websites for our clients. As members of the Illuminati, we pride ourselves on our ability to illuminate the web with stunning designs and innovative development techniques.
+<br><br>
+With a combination of technical expertise and creative flair, our team is well-equipped to tackle any web development project. Whether you're looking to revamp your personal blog or launch a new e-commerce platform, we have the skills and experience to make it happen.
+<br><br>
+ We look forward to working with you!
+
+        </p>
+    </section>
+
+
+    <div class="services">
+        <h1>Services</h1>
+    </div>
+        <div class="flex-container">
+            <div class="flex-item">
+                <div class="img1"></div>
+                <h1>Web Development</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo quasi dolor perspiciatis eveniet ipsa, corporis vero, possimus exercitationem odit cumque libero. Autem reiciendis nisi doloribus. Iure at autem nemo accusantium molestiae sunt quia.</p>
+                <h2><a href="#">Get Started</a></h2>
+            </div>
+            <div class="flex-item">
+                <div class="img2"></div>
+                <h1>Web Design</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo quasi dolor perspiciatis eveniet ipsa, corporis vero, possimus exercitationem odit cumque libero. Autem reiciendis nisi doloribus. Iure at autem nemo accusantium molestiae sunt quia.</p>
+                <h2><a href="#">Get Started</a></h2>
+            </div>
+            <div class="flex-item">
+                <div class="img3"></div>
+                <h1>Web Hosting</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate explicabo quasi dolor perspiciatis eveniet ipsa, corporis vero, possimus exercitationem odit cumque libero. Autem reiciendis nisi doloribus. Iure at autem nemo accusantium molestiae sunt quia.</p>
+                <h2><a href="#">Get Started</a></h2>
+            </div>
+        </div>
+
+
+        <div class="technology">
+            <h1>Technology</h1>
+        </div>
+        <div class="flex-tech">
+            <div class="flex-tech-item">
+                <div class="image1"></div>
+                <h2>HTML5 & CSS3</h2>
+            </div>
+            <div class="flex-tech-item">
+                <div class="image2"></div>
+                <h2>JAVASCRIPT</h2>
+            </div>
+            <div class="flex-tech-item">
+                <div class="image3"></div>
+                <h2>BACKEND</h2>
+            </div>
+        </div>
+   
+  
+  <div class="footer">
+      @Copyright, ILLUMINATE 2022
+  </div>
+  
+  
+  
+  
+  <script type="text/javascript">
+    const bg= document.getElementById('image');
+    window.addEventListener('scroll',function(){
+   /*    bg.style.backgroundSize = 100 - +window.pageYOffset/12+'%';*/
+       bg.style.opacity = 1.15 - +window.pageYOffset/700+'';
+    })
+    </script>
+</body>
+</html>
